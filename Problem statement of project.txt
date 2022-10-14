@@ -1,0 +1,21 @@
+Problem Statement:
+
+The application will be a super simple To-Do management list.
+
+The whole application is divided into a set of services that specialize in doing a specific task using a simple set of protocols. 
+All the communication between different services occurs over the network.
+
+Now, for building our Application, we will be making use of  Spring. Our application uses Spring Boot as the framework for getting the basic things up. 
+Currently, the application uses a few files in the JSON format which serves as the database for our application.
+
+This application consists of two services namely the User service and the To-Do service:
+
+ 
+
+1. User Service: The user service provides a RESTful endpoint to list the users in our application and also allows us to query the user lists based on their usernames. 
+This service currently runs on port 5000 of our server.
+
+2. To-Do Service: The ToDo service provides a RESTful endpoint to list all the lists as well as providing the list of projects filtered on the basis of usernames. 
+This service runs on port 5001 of our server.
+
+Note: Please follow all the best practices for designing Microservices with  Spring Boot.
